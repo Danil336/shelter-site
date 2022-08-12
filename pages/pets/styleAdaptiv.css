@@ -11,16 +11,7 @@
     background: #F6F6F6;
     flex: 1 1 auto;
 }
-@media(max-width: 429px){
-    .wrapper-slider{
-        display: flex;
-        text-align: center;
-        max-width: 1400px;
-        max-height: 1390px;
-        overflow: hidden;
-        justify-content: center;
-    }
-}
+
 @media(max-width: 889px){
     .wrapper-slider{
         display: flex;
@@ -40,6 +31,17 @@
         flex-wrap: wrap;
         justify-content: center;
        
+    }
+}
+
+@media(max-width: 429px){
+    .wrapper-slider{
+        display: flex;
+        text-align: center;
+        max-width: 1400px;
+        max-height: 1390px;
+        overflow: hidden;
+        justify-content: center;
     }
 }
 
